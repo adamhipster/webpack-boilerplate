@@ -47,7 +47,7 @@
   \*********************/
 /***/ function(module, exports) {
 
-
+	import styles from './styles/style.scss'
 
 /***/ }
 /******/ ]);
