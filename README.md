@@ -1,2 +1,8 @@
-# webpack-boilerplate
-A minimalistic but fully functional webpack boilerplate.
+# Webpack Boilerplate
+
+A minimalistic webpack boilerplate.
+
+Using
+- Babel
+- Sass
+- Mocha

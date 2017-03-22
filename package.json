@@ -1,0 +1,21 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal webpack boilerplate.",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack --progress -d --watch",
+    "build": "NODE_ENV=production webpack --progress -p --watch",
+    "test": "mocha --compilers js:babel-core/register --trace-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actuallymentor/webpack-boilerplate.git"
+  },
+  "author": "Mentor Palokaj <mentor@palokaj.co> (https://github.com/actuallymentor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actuallymentor/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/actuallymentor/webpack-boilerplate#readme"
+}
